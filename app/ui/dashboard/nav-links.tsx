@@ -10,7 +10,7 @@ import clsx from 'clsx';
 const links = [
   { name: 'A propos', href: '/dashboard', icon: FaAddressCard  },
   { name: 'Projets', href: '/dashboard/projects', icon: FaCode },
-  { name: 'Langages', href: '/dashboard/tools', icon: FaGear },
+  { name: 'Langages et Outils', href: '/dashboard/tools', icon: FaGear },
 ];
 
 export default function NavLinks() {

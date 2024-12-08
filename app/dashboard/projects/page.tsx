@@ -38,6 +38,17 @@ const projects = [
         repo: "https://github.com/TimeoQUEHEN/raytracing",
         images : ["",""]
     },
+    {
+        title: 'Superb Pokepedia',
+        description: "Superb Pokepedia est un projet scolaire réalisé en 2ème année de BUT Informatique à Lens.\n" +
+            "L'objectif de ce projet était de découvrir et se familiariser avec le fonctionnement de Flask, ainsi que la manipulation d'API. " +
+            "Pour cela, nous avions pour tâche de créer un site sur lequel un utilisateur pouvait rentrer le nom d'un pokémon, et le site afficher toute les informations contenues dans l'API en rapport a ce pokemon. " +
+            "Des aspects supplémentaires etaient de gérer l'authentification, pour permettre a un utilisateur d'accèder à son historique de recherche, et aussi d'enregister des pokemons comme ses favoris.",
+        date: 'décembre 2023',
+        language: ['Python','Flask'],
+        repo: "https://github.com/TimeoQUEHEN/superbPokePedia",
+        images : ["",""]
+    }
 ];
 
 export default function Page() {
@@ -45,13 +56,13 @@ export default function Page() {
         <>
             {projects.map((project) => {
                 return (
-                    <div key={project.title}>
-                        <h3>
-                            {project.title}
-                        </h3>
-                        <p>{project.description}</p>
+                    <div className={"mb-4"} key={project.title}>
 
-                        <div>
+                        <h3 className={"font-bold text-xl"}>{project.title}</h3>
+
+                        <p className={"text-justify"}>{project.description}</p>
+
+                        <div className={"mb-4"}>
                             {project.language.map((lang) => {
                                 return(
                                     <span key={lang} className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">
@@ -64,28 +75,13 @@ export default function Page() {
                         <Link
                             key={project.title}
                             href={project.repo !== null ? project.repo : ""}
-                            className={clsx("w-6",{
-                                'hidden': null !== project.repo,
-                            }) }/>
+                            target={"_blank"}
+                            className={clsx("text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700",{
+                                'hidden': null === project.repo,
+                            }) }>Github</Link>
                     </div>
                 );
             })}
         </>
-    /*
-        <div className={"flex flex-col h-full grow md:flex-row"}>
-            <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-600 px-6 py-10 mb-4 md:mb-0 md:w-1/2 md:px-6">
-
-            </div>
-            <div className={"flex md:grow md:ml-4 flex-col gap-4"}>
-                <div className={"flex flex-col justify-center gap-6 rounded-lg bg-gray-600 px-6 py-10 md:h-1/2 md:px-6"}>
-
-                </div>
-                <div className={"flex flex-col justify-center gap-6 rounded-lg bg-gray-600 px-6 py-10 md:h-1/2 md:px-6"}>
-
-                </div>
-            </div>
-        </div>
-
-     */
     )
 }
