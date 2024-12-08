@@ -8,7 +8,7 @@ import clsx from 'clsx';
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
 const links = [
-  { name: 'A propos', href: '/dashboard/', icon: FaAddressCard  },
+  { name: 'A propos', href: '/dashboard', icon: FaAddressCard  },
   { name: 'Projets', href: '/dashboard/projects', icon: FaCode },
   { name: 'Langages', href: '/dashboard/tools', icon: FaGear },
 ];
