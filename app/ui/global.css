@@ -7,7 +7,7 @@
 }
 
 .gradient {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,22,121,1) 30%, rgba(253,0,255,1) 100%);
+  background: linear-gradient(90deg, #020024 0%, #091679 30%, #fd00ff 100%);
 }
 
 input[type='number'] {
