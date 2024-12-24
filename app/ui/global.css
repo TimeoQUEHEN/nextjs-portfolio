@@ -10,6 +10,14 @@
   background: linear-gradient(90deg, #020024 0%, #091679 30%, #fd00ff 100%);
 }
 
+.pink-bg-underline{
+  box-shadow: inset 0 -0.6em 0 0 rgb(236 72 153);
+}
+
+.purple-bg-underline{
+  box-shadow: inset 0 -0.6em 0 0 rgb(126 34 206);
+}
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;

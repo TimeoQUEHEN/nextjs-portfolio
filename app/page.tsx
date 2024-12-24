@@ -20,40 +20,40 @@ export default function Page() {
               Adepte de Développement Web.
             </p>
             <nav className="flex flex-row justify-between ">
+
               <Link
                   href="/dashboard/tools/"
                   className="flex items-center gap-5 w-1/3 m-1 rounded-lg bg-pink-500 px-3 py-3 text-sm font-medium text-white transition-colors hover:bg-gray-400 md:text-base"
               >
                 <span>Mes outils</span> <ArrowRightIcon className="w-5 md:w-6"/>
               </Link>
-              <Link
-                  href="/dashboard/projects/"
-                  className="flex items-center gap-5 w-1/3 m-1 rounded-lg bg-orange-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-gray-400 md:text-base"
-              >
-                <span>Mes projets</span> <ArrowRightIcon className="w-5 md:w-6"/>
-              </Link>
+
               <Link
                   href="/dashboard/"
                   className="flex items-center gap-5 w-1/3 m-1 rounded-lg bg-purple-700 px-3 py-3 text-sm font-medium text-white transition-colors hover:bg-gray-400 md:text-base"
               >
                 <span>A propos</span> <ArrowRightIcon className="w-5 md:w-6"/>
               </Link>
+
+              <Link
+                  href="/dashboard/projects/"
+                  className="flex items-center gap-5 w-1/3 m-1 rounded-lg bg-blue-950 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-gray-400 md:text-base"
+              >
+                <span>Mes projets</span> <ArrowRightIcon className="w-5 md:w-6"/>
+              </Link>
+
             </nav>
           </div>
-          <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-800 px-6 py-10 md:w-1/2 md:px-20">
-
-            <h2 className={`text-xl md:text-3xl md:leading-normal`}>
-              Dernière M.A.J
-            </h2>
+          <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-800 px-6 py-10 md:w-1/2">
+            <div className={"flex gap-4"}>
+              <h3 className={"font-bold text-xl"}>Hot off the press !</h3>
+              <span
+                  className="bg-gray-100 text-gray-800 text-sm font-medium mb-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"> 24/12/2024 </span>
+            </div>
             <p>
-              Apprentissage de react
+              Création du portfolio ! Hello world :) <br/>
+              (Ah oui apprentissage de react avec ce projet en NextJS)
             </p>
-            <Link
-                href="/dashboard"
-                className="flex items-center gap-5 rounded-lg bg-yellow-600 px-3 py-3 text-sm font-medium text-white transition-colors hover:bg-yellow-300 md:text-base"
-            >
-              <span>Y aller</span> <ArrowRightIcon className="w-5 md:w-6"/>
-            </Link>
           </div>
         </div>
       </main>

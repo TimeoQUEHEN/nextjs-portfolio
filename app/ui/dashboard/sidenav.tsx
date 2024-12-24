@@ -16,7 +16,7 @@ export default function SideNav() {
             {
                 'bg-purple-700': pathname === "/dashboard",
                 'bg-pink-500': pathname === "/dashboard/tools",
-                'bg-orange-500': pathname === "/dashboard/projects"
+                'bg-blue-950': pathname === "/dashboard/projects"
             },
         )}
         href="/"
