@@ -25,8 +25,8 @@ export default function Page() :React.ReactNode {
                 <div className={"md:overflow-scroll"}>
                     <ul className="timeline timeline-vertical">
                         <li>
-                            <div className="timeline-start timeline-box">Lycée Robespierre (spé Informatique + Anglais) -
-                                Mention TB
+                            <div className="timeline-start timeline-box bg-gray-800">
+                                Lycée Robespierre (spé Informatique + Anglais) - Mention TB
                             </div>
                             <div className="timeline-middle">
                                 {checkIcon}
@@ -35,7 +35,7 @@ export default function Page() :React.ReactNode {
                         </li>
                         <li>
                             <hr className="bg-purple-700"/>
-                            <div className="timeline-end timeline-box">
+                            <div className="timeline-end timeline-box bg-gray-800">
                                 IUT Lens - BUT Informatique 1e année + 2e année
                             </div>
                             <div className="timeline-middle">
@@ -45,7 +45,7 @@ export default function Page() :React.ReactNode {
                         </li>
                         <li>
                             <hr className="bg-purple-700"/>
-                            <div className="timeline-start timeline-box">
+                            <div className="timeline-start timeline-box bg-gray-800">
                                 Widop - Stage développement web (projet Widop Cart)
                             </div>
                             <div className="timeline-middle">
@@ -55,7 +55,7 @@ export default function Page() :React.ReactNode {
                         </li>
                         <li>
                             <hr className="bg-purple-700"/>
-                            <div className="timeline-end timeline-box">
+                            <div className="timeline-end timeline-box bg-gray-800">
                                 IUT Lens - BUT Informatique 3e année
                             </div>
                             <div className="timeline-middle">
@@ -65,7 +65,7 @@ export default function Page() :React.ReactNode {
                         </li>
                         <li>
                             <hr/>
-                            <div className="timeline-start timeline-box">
+                            <div className="timeline-start timeline-box bg-gray-800">
                                 Master Informatique
                             </div>
                             <div className="timeline-middle">
@@ -98,7 +98,7 @@ export default function Page() :React.ReactNode {
                     <h2 className={"w-fit text-2xl self-center purple-bg-underline px-1 "}>Contact</h2>
 
                     <ul className={"text-start text-sm flex justify-between gap-4"}>
-                        <li className={"flex items-center"}>
+                        <li className={"flex items-center btn"}>
                             quehentimeo@orange.fr
                         </li>
                         <li className={"btn"}>

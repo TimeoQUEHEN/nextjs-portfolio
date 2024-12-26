@@ -55,7 +55,7 @@ export default function Page() {
                 <h2 className={"my-10 pink-bg-underline px-1 "}>Frameworks</h2>
             </div>
 
-            <ul className={"flex flex-wrap gap-4 justify-center items-baseline w-full bg-gray-600 rounded-lg p-4"}>
+            <ul className={"flex flex-wrap gap-4 justify-center items-baseline w-full bg-gray-800 rounded-lg p-4"}>
                 {frameworks.map((framework) => (
                     <li key={framework.name.toString()} className={"decoration-0 mx-4"}>
                         <img src={"/tools/framework/" + framework.image?.toString()}
