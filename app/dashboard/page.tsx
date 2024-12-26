@@ -1,5 +1,6 @@
 import React from "react";
 import {checkIcon, circleIcon} from "@/app/ui/icons";
+import Link from "next/link";
 
 export default function Page() :React.ReactNode {
     return (
@@ -100,10 +101,10 @@ export default function Page() :React.ReactNode {
                         <li className={"flex items-center"}>
                             quehentimeo@orange.fr
                         </li>
-                        <li className={"underline btn"}>
+                        <li className={"btn"}>
                             <a href="https://www.linkedin.com/in/timeo-quehen-009613296/" target="_blank">LinkedIn</a>
                         </li>
-                        <li className={"underline btn"}>
+                        <li className={"btn"}>
                             <a href="https://github.com/TimeoQUEHEN" target="_blank">GitHub</a>
                         </li>
                     </ul>
@@ -121,6 +122,12 @@ export default function Page() :React.ReactNode {
                             Jeu de rôles
                         </li>
                     </ul>
+
+                    <Link href="/cv_timeo_quehen.pdf" target="_blank" rel="noopener noreferrer">
+                        <button className="bg-purple-700 hover:bg-purple-600 btn">
+                            Voir le CV
+                        </button>
+                    </Link>
 
                 </div>
             </div>
