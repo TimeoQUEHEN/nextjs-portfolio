@@ -45,15 +45,28 @@ export default function Page() {
             </nav>
           </div>
           <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-800 px-6 py-10 md:w-1/2">
-            <div className={"flex gap-4"}>
-              <h3 className={"font-bold text-xl"}>Hot off the press !</h3>
-              <span
-                  className="bg-gray-100 text-gray-800 text-sm font-medium mb-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"> 24/12/2024 </span>
+            <h3 className={"font-bold text-xl"}>Hot off the press !</h3>
+            <div>
+              <div className={"flex gap-4"}>
+                <h3 className={"font-bold text-lg"}>Opening days</h3>
+                <span
+                    className="bg-gray-100 text-gray-800 text-sm font-medium mb-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"> 24/12/2024 </span>
+              </div>
+              <p>
+                Création du portfolio ! Hello world :) <br/>
+                (Ah oui apprentissage de react avec ce projet en NextJS)
+              </p>
             </div>
-            <p>
-              Création du portfolio ! Hello world :) <br/>
-              (Ah oui apprentissage de react avec ce projet en NextJS)
-            </p>
+            <div>
+              <div className={"flex gap-4"}>
+                <h3 className={"font-bold text-lg"}>I wanna work</h3>
+                <span
+                    className="bg-gray-100 text-gray-800 text-sm font-medium mb-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"> 11/01/2025 </span>
+              </div>
+              <p>
+                Nouveau CV ! (Je recherche un stage en développement FullStack)
+              </p>
+            </div>
           </div>
         </div>
       </main>
