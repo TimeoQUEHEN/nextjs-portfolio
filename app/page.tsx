@@ -44,28 +44,54 @@ export default function Page() {
 
             </nav>
           </div>
-          <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-800 px-6 py-10 md:w-1/2">
-            <h3 className={"font-bold text-xl"}>Hot off the press !</h3>
-            <div>
-              <div className={"flex gap-4"}>
-                <h3 className={"font-bold text-lg"}>Opening days</h3>
-                <span
-                    className="bg-gray-100 text-gray-800 text-sm font-medium mb-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"> 24/12/2024 </span>
+          <div className="flex flex-col justify-center rounded-lg bg-gray-800 px-6 py-10 md:w-1/2">
+            <h3 className={"font-bold text-xl mb-4"}>Hot off the press !</h3>
+            <div className={"md:h-80 flex-col-reverse overflow-y-scroll gap-6 flex"}>
+              <div>
+                <div className={"flex gap-4"}>
+                  <h3 className={"font-bold text-lg"}>Opening days</h3>
+                  <span
+                      className="bg-gray-100 text-gray-800 text-sm font-medium mb-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"> 24/12/2024 </span>
+                </div>
+                <p>
+                  Création du portfolio ! Hello world :) <br/>
+                  (Ah oui apprentissage de react avec ce projet en NextJS)
+                </p>
               </div>
-              <p>
-                Création du portfolio ! Hello world :) <br/>
-                (Ah oui apprentissage de react avec ce projet en NextJS)
-              </p>
-            </div>
-            <div>
-              <div className={"flex gap-4"}>
-                <h3 className={"font-bold text-lg"}>I wanna work</h3>
-                <span
-                    className="bg-gray-100 text-gray-800 text-sm font-medium mb-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"> 11/01/2025 </span>
+              <div>
+                <div className={"flex gap-4"}>
+                  <h3 className={"font-bold text-lg"}>Work Desired</h3>
+                  <span
+                      className="bg-gray-100 text-gray-800 text-sm font-medium mb-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"> 11/01/2025 </span>
+                </div>
+                <p>
+                  <a className="underline"
+                     href="dashboard/about">Nouveau CV !</a> (Je recherche un stage en développement FullStack)
+                </p>
               </div>
-              <p>
-                Nouveau CV ! (Je recherche un stage en développement FullStack)
-              </p>
+              <div>
+                <div className={"flex gap-4"}>
+                  <h3 className={"font-bold text-lg"}>Creation of SENT</h3>
+                  <span
+                      className="bg-gray-100 text-gray-800 text-sm font-medium mb-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"> 20/01/2025 </span>
+                </div>
+                <p>
+                  Notre plus grand projet à ce jour, la création d'un réseau social ! <a
+                    className="underline"
+                    href="dashboard/projects">voir projet</a>
+                </p>
+              </div>
+              <div>
+                <div className={"flex gap-4"}>
+                  <h3 className={"font-bold text-lg"}>Coding games</h3>
+                  <span
+                      className="bg-gray-100 text-gray-800 text-sm font-medium mb-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"> 30/01/2025 </span>
+                </div>
+                <p>
+                  Participation à la <a className="underline" href={"https://codegamejam.extragames.fr"}>CodeGameJam (9e
+                  édition)</a>. <a className="underline" href="dashboard/projects">voir projet</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
