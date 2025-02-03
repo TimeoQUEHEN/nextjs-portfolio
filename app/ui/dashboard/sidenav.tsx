@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import NavLinks from '@/app/ui/dashboard/nav-links';
-import Image from "next/image";
 import clsx from "clsx";
 import {usePathname} from "next/navigation";
 
