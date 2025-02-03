@@ -28,7 +28,3 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
-.dark {
-  filter: invert(1) hue-rotate(180deg);
-}
