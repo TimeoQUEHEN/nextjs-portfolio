@@ -103,7 +103,7 @@ export default function Page() {
 
                         <p className={"text-justify text-xs md:text-base"}>{project.description}</p>
 
-                        <div className={"mb-4"}>
+                        <div className={"mb-4 flex flex-wrap w-screen gap-y-2"}>
                             {project.language.map((lang) => {
                                 return (
                                     <span key={lang}

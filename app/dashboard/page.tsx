@@ -97,8 +97,8 @@ export default function Page() :React.ReactNode {
 
                     <h2 className={"w-fit text-2xl self-center purple-bg-underline px-1 "}>Contact</h2>
 
-                    <ul className={"text-start text-sm flex justify-between gap-4"}>
-                        <li className={"flex items-center btn"}>
+                    <ul className={"text-start text-sm flex justify-between gap-4 flex-wrap w-full"}>
+                        <li className={"btn"}>
                             quehentimeo@orange.fr
                         </li>
                         <li className={"btn"}>
