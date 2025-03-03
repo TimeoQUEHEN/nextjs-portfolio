@@ -64,7 +64,7 @@ export default function Page() {
                 </div>
                 <p>
                   <a className="underline"
-                     href="dashboard/about">Nouveau CV !</a> (Je recherche un stage en développement FullStack)
+                     href="dashboard">Nouveau CV !</a> (Je recherche un stage en développement FullStack)
                 </p>
               </div>
               <div>
