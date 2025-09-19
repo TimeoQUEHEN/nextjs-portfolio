@@ -90,6 +90,16 @@ export default function Page() {
                   édition)</a>. <a className="underline" href="dashboard/projects">voir projet</a>
                 </p>
               </div>
+              <div>
+                <div className={"flex gap-4"}>
+                  <h3 className={"font-bold text-lg"}>Fin du BUT !</h3>
+                  <span
+                      className="bg-gray-100 text-gray-800 text-sm font-medium mb-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"> 30/01/2025 </span>
+                </div>
+                <p>
+                   Avec ce <a href={"dashboard/projects"}>dernier projet de stage</a>, je sors diplômé de cette formation !
+                </p>
+              </div>
             </div>
           </div>
         </div>

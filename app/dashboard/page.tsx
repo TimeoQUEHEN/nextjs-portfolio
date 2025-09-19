@@ -16,6 +16,7 @@ export default function Page() :React.ReactNode {
                     Bonjour ! Je m'appelle Timéo Quehen, et je suis étudiant en informatique. J'adore le développement
                     web (ainsi que le développement d'applications),
                     mais j'ai une polyvalence qui me permet de toucher à tout, et je compte bien la conserver.
+                    Diplômé du BUT Informatique de Lens en 2025, je continue mon apprentissage au sein de l'EPSI d'Arras !
                 </p>
 
                 <div className={"flex flex-col items-center justify-center"}>
@@ -46,7 +47,7 @@ export default function Page() :React.ReactNode {
                         <li>
                             <hr className="bg-purple-700"/>
                             <div className="timeline-start timeline-box bg-gray-800">
-                                Widop - Stage développement web (projet Widop Cart)
+                                Widop - Stage développement web - entreprise Widop
                             </div>
                             <div className="timeline-middle">
                                 {checkIcon}
@@ -59,14 +60,24 @@ export default function Page() :React.ReactNode {
                                 IUT Lens - BUT Informatique 3e année
                             </div>
                             <div className="timeline-middle">
-                                {circleIcon}
+                                {checkIcon}
+                            </div>
+                            <hr className="bg-purple-700"/>
+                        </li>
+                        <li>
+                            <hr className="bg-purple-700"/>
+                            <div className="timeline-start timeline-box bg-gray-800">
+                                Stage de développement Fullstack - Association ADH
+                            </div>
+                            <div className="timeline-middle">
+                                {checkIcon}
                             </div>
                             <hr/>
                         </li>
                         <li>
                             <hr/>
-                            <div className="timeline-start timeline-box bg-gray-800">
-                                Master Informatique
+                            <div className="timeline-end timeline-box bg-gray-800">
+                                Formation "Expert en Informatique et Système d'Information" à L'école EPSI
                             </div>
                             <div className="timeline-middle">
                                 {circleIcon}
@@ -85,7 +96,7 @@ export default function Page() :React.ReactNode {
 
                     <ul className={"text-justify"}>
                         <li>
-                            Français : Langue Maternelle
+                        Français : Langue Maternelle
                         </li>
                         <li>
                             Anglais : C2 (TOEIC (990/990) 2024 + Cambridge 2022)

@@ -9,11 +9,25 @@ const projects = [
         description: 'Durant mon stage à l\'entreprise Widop, j\'ai réalisé une application interne de liste collaborative accessible en ligne. ' +
             'La liste permet à chaque employé de suggèrer l\'achat d\'un produit pour les locaux de l\'entreprise. Puis, un administrateur valide ou rejette une demande. ' +
             'Après cette étape, le produit peut être indiqué comme "acheté" par un des utilisateurs.',
-        date: 'Av 2024 - Ju 2024',
+        date: 'Apr 2024 - Jun 2024',
         language: ["PHP",'Symfony','Docker','Postgres','Javascript'],
         repo: null,
         folder: "wc",
         images : ["wc_buy.png","wc_login.png"]
+    },
+    {
+        title: 'Indicateurs ADH',
+        description: 'Durant mon stage à l\'association ADH, j\'ai réalisé une application interne traitement et affichages de données médicales.' +
+            "En récupérant les données d'une base 4D externe, ces dernières étaient ensuite triées puis stockées dans des tableaux pour en afficher des pourcentages, des graphes de façon organisée." +
+            "Dans certains cas, un besoin de télécharger les données dans un fichier excel était annoncé." +
+            "Un dernier aspect du projet à été de générer un pdf contenant les informations relatives à un patient, ainsi qu'un QR-code." +
+            "(certaines données ont été anonymisées.)",
+
+        date: 'Mar 2025 - Jun 2025',
+        language: ["PHP",'MariaDB','Javascript','ChartJS','db 4D','MPDF'],
+        repo: null,
+        folder: "adh",
+        images : ["adh_menu.png","adh_postes.png","adh_graphe.png","adh_ins.png","adh_contacts.png"]
     },
     {
         title: 'S.E.N.T',
